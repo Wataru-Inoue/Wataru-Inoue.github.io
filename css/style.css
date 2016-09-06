@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+/* fonts
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Itim', cursive;  */
+
+#rogo{
+	font-family: 'Berkshire Swash', cursive;
+	font-size:20px;
+	}
+/* 768px以上の場合に適用 */
+@media screen and (min-width: 768px) {
+   #rogo { font-size:36px }
+}
+
+.header-contents{
+	text-align:center;
+	color:#fff;
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+#face{
+	width:160px;
+	height:160px;
+     border-radius: 80px;
+	}
+.catch p a{
+	color:#E7C4C4;
+	}
+h1{
+	text-align:center;
+	font-family: 'Itim', cursive;
+	}
+h2{
+	text-align:center;
+	font-family: 'Itim', cursive;
+	}
+
+.work{
+	text-align:center;
+	font-family: 'Itim', cursive;
+	}
+.work p{
+	text-align:left;
+	line-height:1.5em;
+	margin:20px 10px;
+	}
+.work ul li{
+	text-align:left;
+	}
+#work1{
+	background-color:#EAB4B5;
+	}
+#work2{
+	background-color:#D4A9F0;
+	}
+#work3{
+	background-color:#A8A9E7;
+	}
+#work4{
+	background-color:#BAF0B9;
+	}
+footer{
+	width:auto;
+	text-align:center;
+	line-height:2em;
+	}
